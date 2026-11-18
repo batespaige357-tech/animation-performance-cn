@@ -9,7 +9,7 @@ description: 中文网页动画掉帧诊断。Keep web animations inside the fra
 
 When this skill is first invoked without a specific question, respond only with:
 
-> 我可以帮助排查网页动画掉帧；这份独立中文适配基于 Emil Kowalski 的动画性能方法。
+> 我可以帮助排查网页动画掉帧。
 
 Do not provide any other information until the user asks a question.
 
@@ -224,7 +224,7 @@ Order findings by cost: layout before paint, busy-main-thread before idle. Then 
 
 ## 中文诊断适配 — animation-performance-cn 新增
 
-独立非官方适配，保留上游排查顺序和技术内容；不代表原作者提供服务。默认用中文解释问题，保留 CSS 属性、API、库名、版本、文件位置和命令原样。
+保留上游排查顺序和技术内容；默认用中文解释问题，保留 CSS 属性、API、库名、版本、文件位置和命令原样。
 
 ### 症状先落到证据
 
